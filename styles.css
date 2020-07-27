@@ -1,47 +1,32 @@
-body {
+html, body {
     padding: 0;
     margin: 0;
-    background-color: #CCC;
+    height: 100%;
+    background-color: #c1c1c1;
 }
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    position: relative;
+div.navbar {
+    margin: 0 auto;
+    padding: 10em 3 em;
     text-align: center;
 }
 
-ul.topnav li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
+div.navbar a {
+    color: #FFF;
     text-decoration: none;
-    float: left;
-    padding: 15px;
+    margin: 0px 10px;
+    padding: 10px; /* 10 px; */
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
 }
 
-ul.topnav li a.active {
-    background-color: #FCAF50;
-    color: white;
+div.navbar a:hover {
+    background-color: lightblue
 }
 
-ul.topnav li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
-div.content {
-    margin-left: 0;
-    padding: 1px 16px;
-    height: 1000px;
-}
-
-@media screen and (max-width: 400px) {
-    ul.topnav li a {
-        text-align: center;
-        float: none;
+@media only screen and (max-width: 400px) {
+    div.navbar a {
+        display: block;
     }
 }
