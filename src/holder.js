@@ -17,7 +17,7 @@ export class Holder {
     }
 
     setDisplay(display) {
-        if(display.match("[^0-9-/]")) return;
+        if(display.match("[^0-9-/.]")) return;
         while(display.length > 1 && display[0] === "0") {
             display = display.substr(1);
         }

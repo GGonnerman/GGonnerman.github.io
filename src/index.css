@@ -37,6 +37,7 @@ html, body {
 	font-size: 0;
     border-radius: 0;
     background-color: #f1f1f1;
+	zoom: 80%
 }
 
 .inside {
@@ -92,7 +93,7 @@ html, body {
 	box-shadow: 10px 10px grey;
 	overflow-y: auto;
 	overflow-x: hidden;
-	max-height: calc(100vh - 55px - 14.8vh - 8vh);
+	max-height: calc(100vh - 55px - 14.8vh - 4vh);
 }
 
 .div2 {
@@ -100,7 +101,7 @@ html, body {
 	margin: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
-	max-height: calc(100vh - 55px - 14.8vh - 18vh - 2em);
+	max-height: calc(100vh - 55px - 14.8vh - 4vh - 2em);
 }
 
 .sc2::-webkit-scrollbar {
@@ -146,8 +147,8 @@ ul.a {
 
 .matrixSquare {
 	text-align: center;
-	height: 2em;
-	width: 3em;
+	height: 1em;
+	width: 6em;
     padding: 0;
     margin: 0;
     border-radius: 0;

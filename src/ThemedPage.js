@@ -6,7 +6,7 @@ export class ThemedPage extends React.Component {
         return (
             <>
                 <div className="header">
-                    <h1>Matrix Calculator</h1>
+                    <h1>Temporary Experimental Matrix Calculator</h1>
                 </div>
                 <div className="bar"> </div>
                 <div className="inside">
